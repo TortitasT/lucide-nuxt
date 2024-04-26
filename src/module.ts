@@ -1,24 +1,28 @@
-import { defineNuxtModule, addComponent } from "@nuxt/kit";
+import { defineNuxtModule, addComponent } from '@nuxt/kit'
 
-export interface ModuleOptions {}
+export interface ModuleOptions {
+  prefix: string
+}
 
 export default defineNuxtModule<ModuleOptions>({
   meta: {
-    name: "lucide-nuxt",
-    configKey: "lucide",
+    name: 'lucide-nuxt',
+    configKey: 'lucide',
   },
-  defaults: {},
-  setup(_options, _nuxt) {
-    import("lucide-vue-next").then(({ icons }) => {
-      const keys = Object.keys(icons);
+  defaults: {
+    prefix: 'Icons',
+  },
+  setup(options, _nuxt) {
+    import('lucide-vue-next').then(({ icons }) => {
+      const keys = Object.keys(icons)
 
       keys.forEach((key) => {
         addComponent({
-          name: key,
-          filePath: "lucide-vue-next",
+          name: `${options.prefix}${key}`,
+          filePath: 'lucide-vue-next',
           export: key,
-        });
-      });
-    });
+        })
+      })
+    })
   },
-});
+})

@@ -1,5 +1,7 @@
 <template>
-  <div>basic</div>
+  <main>
+    <TestCamera />
+  </main>
 </template>
 
 <script setup>

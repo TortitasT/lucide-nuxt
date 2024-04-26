@@ -3,8 +3,8 @@
     This should show a camera icon and a bug icon
   </h1>
 
-  <Camera/>
-  <Bug />
+  <IconsCamera />
+  <IconsBug />
 </template>
 
 <script setup>

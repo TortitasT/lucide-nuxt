@@ -4,12 +4,13 @@ import { setup, $fetch } from '@nuxt/test-utils/e2e'
 
 describe('ssr', async () => {
   await setup({
-    rootDir: fileURLToPath(new URL('./fixtures/basic', import.meta.url)),
+    rootDir: fileURLToPath(
+      new URL('./fixtures/custom-prefix', import.meta.url),
+    ),
   })
 
-  it('renders the index page', async () => {
-    // Get response to a server-rendered page with `$fetch`.
+  it('renders some icon', async () => {
     const html = await $fetch('/')
-    expect(html).toContain('<div>basic</div>')
+    expect(html).toContain('<svg xmlns="http://www.w3.org/2000/svg"')
   })
 })
