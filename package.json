@@ -4,6 +4,12 @@
   "description": "lucide-vue-next auto-imports for Nuxt 3 for the best DX with Lucide Icons.",
   "repository": "tortitast/lucide-nuxt",
   "license": "MIT",
+  "keywords": [
+    "vue",
+    "icons",
+    "nuxt",
+    "lucide"
+  ],
   "type": "module",
   "exports": {
     ".": {
