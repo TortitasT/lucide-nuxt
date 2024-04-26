@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v1.2.0
+
+[compare changes](https://github.com/tortitast/lucide-nuxt/compare/v1.1.0...v1.2.0)
+
+### 🚀 Enhancements
+
+- Customizable prefix ([69adf9b](https://github.com/tortitast/lucide-nuxt/commit/69adf9b))
+
+### ❤️ Contributors
+
+- Victor Garcia <victorgf2011@gmail.com>
+
 ## v1.1.0
 
 
