@@ -38,7 +38,44 @@ Paste into your template.
 
 ```vue
 <template>
-  <HandHeart />
+  <IconsHandHeart />
+</template>
+```
+
+## Configuration
+
+You can change the default prefix _Icons_ via the following code. In the example
+y use _Lucide_ as the custom prefix.
+
+```ts
+export default defineNuxtConfig({
+  modules: ["lucide-nuxt"],
+  lucide: {
+    prefix: "Lucide",
+  },
+});
+```
+
+```vue
+<template>
+  <LucideCamera />
+</template>
+```
+
+You can even remove the prefix!
+
+```ts
+export default defineNuxtConfig({
+  modules: ["lucide-nuxt"],
+  lucide: {
+    prefix: "",
+  },
+});
+```
+
+```vue
+<template>
+  <Camera />
 </template>
 ```
 
