@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v1.2.1
+
+[compare changes](https://github.com/tortitast/lucide-nuxt/compare/v1.2.0...v1.2.1)
+
+### 📖 Documentation
+
+- Custom prefix usage ([811afdb](https://github.com/tortitast/lucide-nuxt/commit/811afdb))
+
+### ❤️ Contributors
+
+- Victor Garcia <victorgf2011@gmail.com>
+
 ## v1.2.0
 
 [compare changes](https://github.com/tortitast/lucide-nuxt/compare/v1.1.0...v1.2.0)
