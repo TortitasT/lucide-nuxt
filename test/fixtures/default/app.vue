@@ -1,6 +1,6 @@
 <template>
   <main>
-    <IconsCamera />
+    <Camera />
   </main>
 </template>
 

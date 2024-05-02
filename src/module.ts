@@ -10,7 +10,7 @@ export default defineNuxtModule<ModuleOptions>({
     configKey: 'lucide',
   },
   defaults: {
-    prefix: 'Icons',
+    prefix: '',
   },
   setup(options, _nuxt) {
     import('lucide-vue-next').then(({ icons }) => {
