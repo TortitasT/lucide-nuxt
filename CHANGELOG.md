@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v1.2.2
+
+[compare changes](https://github.com/tortitast/lucide-nuxt/compare/v1.2.1...v1.2.2)
+
+### 💅 Refactors
+
+- Remove default prefix ([24cd241](https://github.com/tortitast/lucide-nuxt/commit/24cd241))
+
+### ❤️ Contributors
+
+- TortitasT <victorgf2011@gmail.com>
+
 ## v1.2.1
 
 [compare changes](https://github.com/tortitast/lucide-nuxt/compare/v1.2.0...v1.2.1)
